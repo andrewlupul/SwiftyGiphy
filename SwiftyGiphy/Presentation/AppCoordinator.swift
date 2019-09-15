@@ -19,6 +19,6 @@ final class AppCoordinator {
     }
     
     func start() {
-        UIApplication.shared.delegate?.window??.rootViewController = rootController
+        UIApplication.shared.delegate?.window??.rootViewController = configurator.mainViewController()
     }
 }

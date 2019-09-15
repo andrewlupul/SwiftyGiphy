@@ -12,4 +12,6 @@ import Foundation
 enum Constants {
     static let baseUrl = "https://api.giphy.com/v1/gifs"
     static let apiKey = "UoScC9fhVDnCJiyWBkw9fe6JrR2lPS5m"
+    static let queryDataLimit = 10
 }
+

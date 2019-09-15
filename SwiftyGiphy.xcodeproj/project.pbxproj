@@ -12,15 +12,18 @@
 		B42060BA23251D950038C411 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42060B923251D950038C411 /* API.swift */; };
 		B42060BC23251F9E0038C411 /* GiphyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42060BB23251F9E0038C411 /* GiphyService.swift */; };
 		B42060BF232520210038C411 /* GifData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42060BE232520210038C411 /* GifData.swift */; };
-		B42060C42326EA050038C411 /* GifCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42060C32326EA050038C411 /* GifCollectionViewCell.swift */; };
+		B42060C42326EA050038C411 /* GifTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42060C32326EA050038C411 /* GifTableViewCell.swift */; };
 		B431C5BF232508D7008C2114 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B431C5BE232508D7008C2114 /* MainPresenter.swift */; };
 		B431C5C123250933008C2114 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B431C5C023250933008C2114 /* AppCoordinator.swift */; };
-		B431C5C523250A8B008C2114 /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = B431C5C423250A8B008C2114 /* Table.swift */; };
-		B431C5C723250ACE008C2114 /* CellConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B431C5C623250ACE008C2114 /* CellConfigurator.swift */; };
-		B431C5C923250B4A008C2114 /* TableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B431C5C823250B4A008C2114 /* TableModel.swift */; };
 		B431C5CC23250DEE008C2114 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B431C5CB23250DEE008C2114 /* Networking.swift */; };
+		B46D27FA232EB256002AE145 /* DataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46D27F9232EB256002AE145 /* DataResponse.swift */; };
 		B49E507B232AFCB3009B8DC0 /* MainAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49E507A232AFCB3009B8DC0 /* MainAssembly.swift */; };
 		B49E507F232B009F009B8DC0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49E507E232B009F009B8DC0 /* Constants.swift */; };
+		B49E5085232C198F009B8DC0 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49E5084232C198F009B8DC0 /* UIView.swift */; };
+		B49E5087232C22E6009B8DC0 /* QueryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49E5086232C22E6009B8DC0 /* QueryData.swift */; };
+		B49E508B232C39B3009B8DC0 /* CommonInitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49E508A232C39B3009B8DC0 /* CommonInitTableViewCell.swift */; };
+		B49E5090232C5A78009B8DC0 /* AppConfiguring.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49E508F232C5A78009B8DC0 /* AppConfiguring.swift */; };
+		B49E5092232C5BD7009B8DC0 /* StateMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49E5091232C5BD7009B8DC0 /* StateMessageView.swift */; };
 		B4B426F923205FF100E764D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B426F823205FF100E764D4 /* AppDelegate.swift */; };
 		B4B426FB23205FF100E764D4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B426FA23205FF100E764D4 /* MainViewController.swift */; };
 		B4B4270023205FF200E764D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4B426FF23205FF200E764D4 /* Assets.xcassets */; };
@@ -34,15 +37,18 @@
 		B42060B923251D950038C411 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		B42060BB23251F9E0038C411 /* GiphyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyService.swift; sourceTree = "<group>"; };
 		B42060BE232520210038C411 /* GifData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifData.swift; sourceTree = "<group>"; };
-		B42060C32326EA050038C411 /* GifCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifCollectionViewCell.swift; sourceTree = "<group>"; };
+		B42060C32326EA050038C411 /* GifTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifTableViewCell.swift; sourceTree = "<group>"; };
 		B431C5BE232508D7008C2114 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		B431C5C023250933008C2114 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
-		B431C5C423250A8B008C2114 /* Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
-		B431C5C623250ACE008C2114 /* CellConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellConfigurator.swift; sourceTree = "<group>"; };
-		B431C5C823250B4A008C2114 /* TableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableModel.swift; sourceTree = "<group>"; };
 		B431C5CB23250DEE008C2114 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		B46D27F9232EB256002AE145 /* DataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataResponse.swift; sourceTree = "<group>"; };
 		B49E507A232AFCB3009B8DC0 /* MainAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAssembly.swift; sourceTree = "<group>"; };
 		B49E507E232B009F009B8DC0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B49E5084232C198F009B8DC0 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		B49E5086232C22E6009B8DC0 /* QueryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryData.swift; sourceTree = "<group>"; };
+		B49E508A232C39B3009B8DC0 /* CommonInitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonInitTableViewCell.swift; sourceTree = "<group>"; };
+		B49E508F232C5A78009B8DC0 /* AppConfiguring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguring.swift; sourceTree = "<group>"; };
+		B49E5091232C5BD7009B8DC0 /* StateMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateMessageView.swift; sourceTree = "<group>"; };
 		B4B426F523205FF100E764D4 /* SwiftyGiphy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyGiphy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4B426F823205FF100E764D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4B426FA23205FF100E764D4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				B42060BE232520210038C411 /* GifData.swift */,
+				B49E5086232C22E6009B8DC0 /* QueryData.swift */,
+				B46D27F9232EB256002AE145 /* DataResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -94,7 +102,8 @@
 		B42060C22326E9E30038C411 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				B42060C32326EA050038C411 /* GifCollectionViewCell.swift */,
+				B42060C32326EA050038C411 /* GifTableViewCell.swift */,
+				B49E508A232C39B3009B8DC0 /* CommonInitTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -102,9 +111,9 @@
 		B431C5BA232507C3008C2114 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				B49E5093232C5ED2009B8DC0 /* Views */,
 				B4E5046B232983D3009F909E /* Extensions */,
 				B42060C22326E9E30038C411 /* Cells */,
-				B431C5C323250949008C2114 /* Table */,
 				B431C5C223250939008C2114 /* Main */,
 				B431C5C023250933008C2114 /* AppCoordinator.swift */,
 			);
@@ -116,6 +125,7 @@
 			children = (
 				B4B4270123205FF200E764D4 /* LaunchScreen.storyboard */,
 				B4B426F823205FF100E764D4 /* AppDelegate.swift */,
+				B49E508F232C5A78009B8DC0 /* AppConfiguring.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -141,24 +151,14 @@
 			children = (
 				B4B426FA23205FF100E764D4 /* MainViewController.swift */,
 				B431C5BE232508D7008C2114 /* MainPresenter.swift */,
-				B49E507A232AFCB3009B8DC0 /* MainAssembly.swift */,
 			);
 			path = Main;
-			sourceTree = "<group>";
-		};
-		B431C5C323250949008C2114 /* Table */ = {
-			isa = PBXGroup;
-			children = (
-				B431C5C423250A8B008C2114 /* Table.swift */,
-				B431C5C623250ACE008C2114 /* CellConfigurator.swift */,
-				B431C5C823250B4A008C2114 /* TableModel.swift */,
-			);
-			path = Table;
 			sourceTree = "<group>";
 		};
 		B431C5CA23250DE0008C2114 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				B46D27F8232D3563002AE145 /* Assembly */,
 				B42060BD232520040038C411 /* Models */,
 				B431C5CB23250DEE008C2114 /* Networking.swift */,
 				B42060B7232519ED0038C411 /* Error.swift */,
@@ -166,6 +166,22 @@
 				B49E507E232B009F009B8DC0 /* Constants.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		B46D27F8232D3563002AE145 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				B49E507A232AFCB3009B8DC0 /* MainAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		B49E5093232C5ED2009B8DC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B49E5091232C5BD7009B8DC0 /* StateMessageView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		B4B426EC23205FF100E764D4 = {
@@ -203,6 +219,7 @@
 			isa = PBXGroup;
 			children = (
 				B4E5046C232983EB009F909E /* FLAnimatedImageView.swift */,
+				B49E5084232C198F009B8DC0 /* UIView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -322,21 +339,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				B431C5C123250933008C2114 /* AppCoordinator.swift in Sources */,
-				B431C5C723250ACE008C2114 /* CellConfigurator.swift in Sources */,
-				B431C5C523250A8B008C2114 /* Table.swift in Sources */,
+				B49E508B232C39B3009B8DC0 /* CommonInitTableViewCell.swift in Sources */,
 				B4E5046D232983EB009F909E /* FLAnimatedImageView.swift in Sources */,
 				B42060BC23251F9E0038C411 /* GiphyService.swift in Sources */,
+				B46D27FA232EB256002AE145 /* DataResponse.swift in Sources */,
 				B42060BF232520210038C411 /* GifData.swift in Sources */,
 				B431C5CC23250DEE008C2114 /* Networking.swift in Sources */,
 				B49E507F232B009F009B8DC0 /* Constants.swift in Sources */,
-				B42060C42326EA050038C411 /* GifCollectionViewCell.swift in Sources */,
+				B42060C42326EA050038C411 /* GifTableViewCell.swift in Sources */,
+				B49E5090232C5A78009B8DC0 /* AppConfiguring.swift in Sources */,
 				B42060BA23251D950038C411 /* API.swift in Sources */,
 				B4B426FB23205FF100E764D4 /* MainViewController.swift in Sources */,
 				B49E507B232AFCB3009B8DC0 /* MainAssembly.swift in Sources */,
 				B431C5BF232508D7008C2114 /* MainPresenter.swift in Sources */,
+				B49E5085232C198F009B8DC0 /* UIView.swift in Sources */,
+				B49E5087232C22E6009B8DC0 /* QueryData.swift in Sources */,
 				B4B426F923205FF100E764D4 /* AppDelegate.swift in Sources */,
+				B49E5092232C5BD7009B8DC0 /* StateMessageView.swift in Sources */,
 				B42060B8232519ED0038C411 /* Error.swift in Sources */,
-				B431C5C923250B4A008C2114 /* TableModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,7 +496,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 384NYYBB8V;
 				INFOPLIST_FILE = SwiftyGiphy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -494,7 +516,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 384NYYBB8V;
 				INFOPLIST_FILE = SwiftyGiphy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

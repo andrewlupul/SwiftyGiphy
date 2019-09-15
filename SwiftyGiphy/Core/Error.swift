@@ -10,9 +10,13 @@ import Foundation
 
 
 enum NetworkingError: Error {
-    case wrongURL
-    case wrongParameterType
-    case statusCode(Int)
+    case `default`
+    
+    var localizedDescription: String {
+        switch self {
+        case .default: return "Networking Error"
+        }
+    }
 }
 
 

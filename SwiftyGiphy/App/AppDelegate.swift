@@ -11,13 +11,14 @@ import Nuke
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    private let configurator = AppConfiguringImpl()
+    
     private var coordinator = AppCoordinator(configurator: MainAssemblyDefault())
     var window: UIWindow?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        // TODO: Вынести
-        ImagePipeline.Configuration.isAnimatedImageDataEnabled = true
+        configurator.configure()
         setupWindow()
         return true
     }

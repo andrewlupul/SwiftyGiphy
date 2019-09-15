@@ -41,7 +41,7 @@ class NetworkingImpl: Networking {
                 }
                 completion(.success(data))
             case .failure(let error):
-                // TODO:
+                print(error)
                 completion(.failure(CommonError.default))
             }
         }
